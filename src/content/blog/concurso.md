@@ -38,7 +38,7 @@ Como resultado de mi presentación, realizé un video sobre los fractales, un te
         </div>
       </div>
 
-      <div class="p-6 sm:w-2/3 flex flex-col justify-center">
+ <div class="p-6 sm:w-2/3 flex flex-col justify-center">
         <div class="flex items-center space-x-2 mb-2">
           <span class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white bg-red-500 rounded-md">Premiado</span>
           <span class="text-xs font-medium text-zinc-500">TikTok • 2025</span>
