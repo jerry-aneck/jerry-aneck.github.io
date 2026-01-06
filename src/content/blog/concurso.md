@@ -15,38 +15,47 @@ Como parte de la celebración del creciente alcance que tienen los contenidos di
 
 Como resultado de mi presentación, realizé un video sobre los fractales, un tema interesante y visualmente cautivador, con el cual obtuve el segunto lugar en la categoria B.
 
-- **User Experience**: 53% of mobile users abandon sites that take longer than 3 seconds to load
-- **Conversion Rates**: A 1-second delay in page load time can result in a 7% reduction in conversions
-- **SEO**: Page speed is a ranking factor for search engines
-- **Accessibility**: Fast websites are more accessible, especially for users with limited bandwidth
+<div class="my-10 group">
+  <a 
+    href="https://www.tiktok.com/@jerryaneck/video/7542620297795505415?is_from_webapp=1&sender_device=pc&web_id=7585262100432406028" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="relative block overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-md transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-zinc-300 dark:hover:border-zinc-700"
+  >
+    <div class="flex flex-col sm:flex-row">
+      <div class="relative h-48 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+        <img 
+          src="/pixel2025.jpg" 
+          alt="Preview de video de fractales" 
+          class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+        <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
+          <div class="rounded-full bg-white/90 p-3 shadow-lg group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.59-1.01V15.5c0 1.28-.18 2.58-.72 3.71-.54 1.14-1.39 2.12-2.49 2.73-1.09.61-2.41.87-3.66.82-1.25-.05-2.5-.42-3.53-1.12-1.03-.71-1.83-1.74-2.28-2.91-.46-1.16-.54-2.47-.28-3.68.26-1.21.89-2.33 1.83-3.14.94-.8 2.14-1.32 3.39-1.48v4.01c-.56.06-1.13.25-1.59.59-.46.34-.8.83-.97 1.37-.17.54-.16 1.13.01 1.66.17.54.51 1.01.97 1.33.46.32 1.02.48 1.59.46.57-.02 1.13-.21 1.57-.56.44-.35.75-.84.88-1.38.13-.54.11-1.12-.04-1.65V0h4.23z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
 
-## Core Web Vitals
-
-Google's Core Web Vitals are a set of specific factors that Google considers important for a webpage's overall user experience:
-
-1. **Largest Contentful Paint (LCP)**: Measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
-
-2. **First Input Delay (FID)**: Measures interactivity. Pages should have a FID of less than 100 milliseconds.
-
-3. **Cumulative Layout Shift (CLS)**: Measures visual stability. Pages should maintain a CLS of less than 0.1.
-
-## Performance Optimization Techniques
-
-### 1. Optimize Images
-
-Images often account for most of the downloaded bytes on a webpage. Optimizing them can significantly improve load times:
-
-- Use modern formats like WebP or AVIF
-- Implement responsive images with `srcset` and `sizes` attributes
-- Lazy load images below the fold
-- Compress images without sacrificing quality
-
-```html
-<img 
-  src="small.jpg" 
-  srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 1500w" 
-  sizes="(max-width: 600px) 500px, (max-width: 1200px) 1000px, 1500px" 
-  alt="Description" 
-  loading="lazy" 
-/>
-```
+      <div class="p-6 sm:w-2/3 flex flex-col justify-center">
+        <div class="flex items-center space-x-2 mb-2">
+          <span class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white bg-red-500 rounded-md">Premiado</span>
+          <span class="text-xs font-medium text-zinc-500">TikTok • 2025</span>
+        </div>
+        <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">
+          Fractales: El arte de la autosemejanza
+        </h3>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400">
+          Explora la geometría infinita en este video ganador del 2do lugar en PIXEL 2025 [cite: 2026-01-06]. Una explicación visual diseñada para democratizar las matemáticas.
+        </p>
+        <div class="mt-4 flex items-center text-sm font-bold text-zinc-900 dark:text-zinc-100">
+          <span>Ver video completo</span>
+          <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
