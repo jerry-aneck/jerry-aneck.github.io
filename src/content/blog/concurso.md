@@ -9,11 +9,11 @@ tags: ["Divulgación Científica", "PIXEL 2025"]
 
 # PIXEL 2025
 
-Como parte de la celebración del creciente alcance que tienen los contenidos digitales... (tu texto)
+Como parte de la celebración del creciente alcance que tienen los contenidos digitales en redes sociales, el Gobierno de Guanajuato, a través del Instituto de Inovación, Ciencia y Emprendimiento para la Competitividad y en colaboración con el Centro de Investigación en Matemáticas (CIMAT), presentaron el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación "PIXEL 2025". El cual tuvo dos categorias; A y B. La primera de ellas, enfocada a los estudiantes de secundaria y nivel medio superior. La segunda categoría, destinada para estudiantes de universidad, posgrados y egresados.
 
 ## Resultados
 
-Como resultado de mi presentación, realizé un video sobre los fractales... (tu texto)
+Como resultado de mi presentación, realizé un video sobre los fractales, un tema interesante y visualmente cautivador, con el cual obtuve el segunto lugar en la categoria B.
 
 <div class="my-10 group">
   <a 
@@ -25,7 +25,7 @@ Como resultado de mi presentación, realizé un video sobre los fractales... (tu
     <div class="flex flex-col sm:flex-row">
       <div class="relative h-56 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
         <img 
-          src="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/o0fIAEBIdAnlEgkAfBf2fGfQWqCjCAtX1AnG2C" 
+          src="/pixel2025.jpg" 
           alt="Fractales: Explicación Premiada" 
           class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
@@ -43,9 +43,14 @@ Como resultado de mi presentación, realizé un video sobre los fractales... (tu
           <span class="text-xs font-medium text-zinc-500">Categoría B • PIXEL 2025</span>
         </div>
         <h3 class="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">Fractales: Explicación Premiada</h3>
-        <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">Este video explora la belleza matemática de los fractales mediante una narrativa visual clara y accesible.</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          Este video explora la belleza matemática de los fractales mediante una narrativa visual clara y accesible. Logro obtenido en el concurso de divulgación del <strong>CIMAT</strong>.
+        </p>
         <div class="mt-6 flex items-center text-sm font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 transition-colors">
           <span>Ver video en TikTok</span>
+          <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
         </div>
       </div>
     </div>
