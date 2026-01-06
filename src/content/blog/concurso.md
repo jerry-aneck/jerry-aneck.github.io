@@ -15,18 +15,36 @@ Como parte de la celebración del creciente alcance que tienen los contenidos di
 
 Como resultado de mi presentación, realizé un video sobre los fractales, un tema interesante y visualmente cautivador, con el cual obtuve el segunto lugar en la categoria B.
 
+---
+// 1. Define la URL de tu video de TikTok
+const tiktokVideoUrl = "https://www.tiktok.com/@jerryaneck/video/7542620297795505415?is_from_webapp=1&sender_device=pc&web_id=7585262100432406028"; 
+
+// 2. Obtenemos los datos de TikTok (miniatura, título, etc.)
+let thumbnail = "/pixel2025.jpg"; // Imagen de respaldo (fallback)
+let videoTitle = "Video de Fractales";
+
+try {
+  const response = await fetch(`https://www.tiktok.com/oembed?url=${tiktokVideoUrl}`);
+  const data = await response.json();
+  thumbnail = data.thumbnail_url;
+  videoTitle = data.title;
+} catch (e) {
+  console.error("No se pudo obtener la miniatura de TikTok", e);
+}
+---
+
 <div class="my-10 group">
   <a 
-    href="https://www.tiktok.com/@jerryaneck/video/7542620297795505415?is_from_webapp=1&sender_device=pc&web_id=7585262100432406028" 
+    href={tiktokVideoUrl} 
     target="_blank" 
     rel="noopener noreferrer"
-    class="relative block overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-md transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-zinc-300 dark:hover:border-zinc-700"
+    class="relative block overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-md transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-zinc-400 dark:hover:border-zinc-600"
   >
     <div class="flex flex-col sm:flex-row">
-      <div class="relative h-48 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+      <div class="relative h-56 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
         <img 
-          src="/pixel2025.jpg" 
-          alt="Preview de video de fractales" 
+          src={thumbnail} 
+          alt={videoTitle} 
           class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
@@ -38,19 +56,19 @@ Como resultado de mi presentación, realizé un video sobre los fractales, un te
         </div>
       </div>
 
- <div class="p-6 sm:w-2/3 flex flex-col justify-center">
-        <div class="flex items-center space-x-2 mb-2">
-          <span class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white bg-red-500 rounded-md">Premiado</span>
-          <span class="text-xs font-medium text-zinc-500">TikTok • 2025</span>
+ <div class="p-8 sm:w-2/3 flex flex-col justify-center">
+        <div class="flex items-center space-x-2 mb-3">
+          <span class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white bg-blue-600 rounded-md">2do Lugar</span>
+          <span class="text-xs font-medium text-zinc-500">Categoría B • PIXEL 2025</span>
         </div>
-        <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">
-          Fractales: El arte de la autosemejanza
+        <h3 class="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">
+          Fractales: Explicación Premiada
         </h3>
-        <p class="text-sm text-zinc-600 dark:text-zinc-400">
-          Explora la geometría infinita en este video ganador del 2do lugar en PIXEL 2025 [cite: 2026-01-06]. Una explicación visual diseñada para democratizar las matemáticas.
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          Contenido diseñado para el concurso de divulgación del <strong>CIMAT</strong> y el Gobierno de Guanajuato . Este video explora la belleza matemática de los fractales mediante una narrativa visual clara y accesible.
         </p>
-        <div class="mt-4 flex items-center text-sm font-bold text-zinc-900 dark:text-zinc-100">
-          <span>Ver video completo</span>
+        <div class="mt-6 flex items-center text-sm font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 transition-colors">
+          <span>Ver video en TikTok</span>
           <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
