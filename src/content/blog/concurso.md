@@ -1,6 +1,6 @@
 ---
 title: "Primer concurso de creación de contenidos digitales PIXEL 2025"
-description: "Reconocimiento al seguindo lugar de la categoria B en el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación PIXEL 2025"
+description: "Reconocimiento al segundo lugar de la categoria B en el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación PIXEL 2025"
 pubDate: 2025-12-24
 heroImage: "/pixel2025.jpg"
 readingTime: "5 min"
@@ -9,33 +9,15 @@ tags: ["Divulgación Científica", "PIXEL 2025"]
 
 # PIXEL 2025
 
-Como parte de la celebración del creciente alcance que tienen los contenidos digitales en redes sociales, el Gobierno de Guanajuato, a través del Instituto de Inovación, Ciencia y Emprendimiento para la Competitividad y en colaboración con el Centro de Investigación en Matemáticas (CIMAT), presentaron el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación "PIXEL 2025". El cual tuvo dos categorias; A y B. La primera de ellas, enfocada a los estudiantes de secundaria y nivel medio superior. La segunda categoría, destinada para estudiantes de universidad, posgrados y egresados.
+Como parte de la celebración del creciente alcance que tienen los contenidos digitales... (tu texto)
 
 ## Resultados
 
-Como resultado de mi presentación, realizé un video sobre los fractales, un tema interesante y visualmente cautivador, con el cual obtuve el segunto lugar en la categoria B.
-
----
-// 1. Define la URL de tu video de TikTok
-const tiktokVideoUrl = "https://www.tiktok.com/@jerryaneck/video/7542620297795505415?is_from_webapp=1&sender_device=pc&web_id=7585262100432406028"; 
-
-// 2. Obtenemos los datos de TikTok (miniatura, título, etc.)
-let thumbnail = "/pixel2025.jpg"; // Imagen de respaldo (fallback)
-let videoTitle = "Video de Fractales";
-
-try {
-  const response = await fetch(`https://www.tiktok.com/oembed?url=${tiktokVideoUrl}`);
-  const data = await response.json();
-  thumbnail = data.thumbnail_url;
-  videoTitle = data.title;
-} catch (e) {
-  console.error("No se pudo obtener la miniatura de TikTok", e);
-}
----
+Como resultado de mi presentación, realizé un video sobre los fractales... (tu texto)
 
 <div class="my-10 group">
   <a 
-    href={tiktokVideoUrl} 
+    href="https://www.tiktok.com/@jerryaneck/video/7542620297795505415" 
     target="_blank" 
     rel="noopener noreferrer"
     class="relative block overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-md transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-zinc-400 dark:hover:border-zinc-600"
@@ -43,8 +25,8 @@ try {
     <div class="flex flex-col sm:flex-row">
       <div class="relative h-56 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
         <img 
-          src={thumbnail} 
-          alt={videoTitle} 
+          src="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/o0fIAEBIdAnlEgkAfBf2fGfQWqCjCAtX1AnG2C" 
+          alt="Fractales: Explicación Premiada" 
           class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
@@ -55,23 +37,15 @@ try {
           </div>
         </div>
       </div>
-
- <div class="p-8 sm:w-2/3 flex flex-col justify-center">
+      <div class="p-8 sm:w-2/3 flex flex-col justify-center">
         <div class="flex items-center space-x-2 mb-3">
           <span class="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white bg-blue-600 rounded-md">2do Lugar</span>
           <span class="text-xs font-medium text-zinc-500">Categoría B • PIXEL 2025</span>
         </div>
-        <h3 class="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">
-          Fractales: Explicación Premiada
-        </h3>
-        <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          Contenido diseñado para el concurso de divulgación del <strong>CIMAT</strong> y el Gobierno de Guanajuato . Este video explora la belleza matemática de los fractales mediante una narrativa visual clara y accesible.
-        </p>
+        <h3 class="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-2">Fractales: Explicación Premiada</h3>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">Este video explora la belleza matemática de los fractales mediante una narrativa visual clara y accesible.</p>
         <div class="mt-6 flex items-center text-sm font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 transition-colors">
           <span>Ver video en TikTok</span>
-          <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-          </svg>
         </div>
       </div>
     </div>
