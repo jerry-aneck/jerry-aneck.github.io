@@ -4,7 +4,7 @@ description: "Reconocimiento al seguindo lugar de la categoria B en el primer co
 pubDate: 2025-12-24
 heroImage: "/pixel2025.jpg"
 readingTime: "5 min"
-tags: ["performance", "web development", "user experience"]
+tags: ["Divulgación Científica", "PIXEL 2025"]
 ---
 
 # PIXEL 2025
