@@ -2,7 +2,7 @@
 title: "Primer concurso de creación de contenidos digitales PIXEL 2025"
 description: "Reconocimiento al segundo lugar de la categoria B en el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación PIXEL 2025"
 pubDate: 2025-12-24
-heroImage: "/pixel2025.jpg"
+heroImage: "/pixel2025.png"
 readingTime: "5 min"
 tags: ["Divulgación Científica", "PIXEL 2025"]
 ---
@@ -25,7 +25,7 @@ Como resultado de mi presentación, realizé un video sobre los fractales, un te
     <div class="flex flex-col sm:flex-row">
       <div class="relative h-56 sm:h-auto sm:w-1/3 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
         <img 
-          src="/pixel2025.jpg" 
+          src="/pixel2025.png" 
           alt="Fractales: Explicación Premiada" 
           class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
