@@ -53,7 +53,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/williamcachamwri/astro-blog
+git clone 
 
 # Navigate to project directory
 cd astro-blog

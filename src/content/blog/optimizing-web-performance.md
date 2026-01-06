@@ -2,7 +2,7 @@
 title: "Primer concurso de creación de contenidos digitales PIXEL 2025"
 description: "Reconocimiento al seguindo lugar de la categoria B en el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación PIXEL 2025"
 pubDate: 2025-12-24
-heroImage: "pixel2025.jpg"
+heroImage: "/public/pixel2025.jpg"
 readingTime: "5 min"
 tags: ["performance", "web development", "user experience"]
 ---
