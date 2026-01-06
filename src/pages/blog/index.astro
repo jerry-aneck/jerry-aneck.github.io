@@ -34,11 +34,11 @@ const allTags = [...new Set(sortedPosts.flatMap(post => post.data.tags || []))];
       
       <div class="relative text-center">
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-4">
-          Journal
+          Portafolio
         </h1>
         
         <p class="text-sm sm:text-base text-zinc-600 dark:text-zinc-400 mb-6 sm:mb-10 max-w-2xl mx-auto">
-          Thoughts, ideas, and explorations on design and technology.
+          Mis proyectos, reconocimientos, actividades y actualizaciones.
         </p>
       </div>
     </div>
@@ -63,7 +63,7 @@ const allTags = [...new Set(sortedPosts.flatMap(post => post.data.tags || []))];
               
               <div class="flex-1 flex flex-col justify-center">
                 <div class="flex items-center text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 gap-2 mb-3 justify-center md:justify-start">
-                  <span class="font-medium uppercase tracking-wider">Featured</span>
+                  <span class="font-medium uppercase tracking-wider">Presentación</span>
                   <span class="h-px w-6 sm:w-8 bg-zinc-300 dark:bg-zinc-700"></span>
                   {sortedPosts[0].data.pubDate && (
                     <time datetime={sortedPosts[0].data.pubDate.toISOString()}>
