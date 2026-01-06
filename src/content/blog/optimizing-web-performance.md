@@ -1,19 +1,18 @@
 ---
-title: "Optimizing Web Performance for Better UX"
-description: "Tips and techniques for improving your website's performance and providing a better user experience."
-pubDate: 2023-01-18
-heroImage: "/i.jpg"
-readingTime: "8 min read"
+title: "Primer concurso de creación de contenidos digitales PIXEL 2025"
+description: "Reconocimiento al seguindo lugar de la categoria B en el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación PIXEL 2025"
+pubDate: 2025-12-24
+heroImage: "/pixel2025.jpg"
 tags: ["performance", "web development", "user experience"]
 ---
 
-# Optimizing Web Performance for Better UX
+# PIXEL 2025
 
-Web performance is a critical aspect of user experience. Studies consistently show that users abandon sites that take too long to load, and search engines like Google factor page speed into their ranking algorithms. In this post, we'll explore practical strategies to optimize your website's performance.
+Como parte de la celebración del creciente alcance que tienen los contenidos digitales en redes sociales, el Gobierno de Guanajuato, a través del Instituto de Inovación, Ciencia y Emprendimiento para la Competitividad y en colaboración con el Centro de Investigación en Matemáticas (CIMAT), presentaron el primer concurso de creación de contenidos digitales para explicar, divulgar o enseñar matemáticas o computación "PIXEL 2025". El cual tuvo dos categorias; A y B. La primera de ellas, enfocada a los estudiantes de secundaria y nivel medio superior. La segunda categoría, destinada para estudiantes de universidad, posgrados y egresados.
 
-## Why Performance Matters
+## Resultados
 
-Before diving into optimization techniques, let's understand why performance is crucial:
+Como resultado de mi presentación, realizé un video sobre los fractales, un tema interesante y visualmente cautivador, con el cual obtuve el segunto lugar en la categoria B.
 
 - **User Experience**: 53% of mobile users abandon sites that take longer than 3 seconds to load
 - **Conversion Rates**: A 1-second delay in page load time can result in a 7% reduction in conversions
